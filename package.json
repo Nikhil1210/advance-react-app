@@ -1,38 +1,48 @@
 {
-    "name": "advance-react-app",
-    "version": "1.0.0",
-    "description": "react app with advanced features",
-    "main": "lib/server.js",
-    "directories": {
-        "lib": "lib"
-    },
-    "scripts": {
-        "start": "pm2 start lib/server.js --watch --interpreter babel-node",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "babel": {
-        "presets": ["react", "env", "stage-2"]
-    },
-    "keywords": [
-        "react",
-        "node",
-        "express",
-        "advance"
-    ],
-    "author": "nikhil malhotra",
-    "license": "ISC",
-    "devDependencies": {
-        "babel-eslint": "^8.1.2",
-        "eslint": "^4.14.0",
-        "eslint-plugin-react": "^7.5.1"
-    },
-    "dependencies": {
-        "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.6.1",
-        "babel-preset-react": "^6.24.1",
-        "babel-preset-stage-2": "^6.24.1",
-        "ejs": "^2.5.7",
-        "express": "^4.16.2",
-        "pm2": "^2.9.1"
-    }
+  "name": "advance-react-app",
+  "version": "1.0.0",
+  "description": "react app with advanced features",
+  "main": "lib/server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "webpack": "webpack -wd",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "env",
+      "stage-2"
+    ]
+  },
+  "keywords": [
+    "react",
+    "node",
+    "express",
+    "advance"
+  ],
+  "author": "nikhil malhotra",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "eslint": "^4.14.0",
+    "eslint-plugin-react": "^7.5.1"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "pm2": "^2.9.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^3.10.0"
+  }
 }
