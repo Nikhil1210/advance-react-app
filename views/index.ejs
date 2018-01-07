@@ -7,10 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Advance react </title>
 </head>
+<script>
+  window.initialData = <%- JSON.stringify(initialData)-%>
+
+</script>
 
 <body>
   <div id="root">
-    <%- initialContent-%>
+    <%- initialMarkup-%>
   </div>
   <script src="/bundle.js"></script>
 </body>
